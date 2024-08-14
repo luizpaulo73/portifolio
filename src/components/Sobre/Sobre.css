@@ -1,0 +1,70 @@
+#sobre-mim {
+    background-color: #13131f;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 120px 0 120px;
+    align-items: center;
+}
+
+.infos {
+    width: 40vw;
+}
+
+.resumo {
+    width: 30vw;
+}
+
+.saudacao , .nome{
+    font-family: "kanit";
+    font-size: 4rem;
+    font-weight: 400;
+    color: whitesmoke;
+}
+
+.dev {
+    font-family: "kanit";
+    font-size: 2rem;
+    font-weight: 400;
+    color: rgb(255, 255, 107);
+}
+
+.resumo p {
+    font-family: "kanit";
+    font-size: 2rem;
+    color: whitesmoke;
+}
+
+.links-uteis {
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.links-uteis a {
+    font-family: "kanit";
+    text-decoration: none;
+    background-color: #8257E6;
+    color: whitesmoke;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.link-github:hover {
+    background-color: #2b3137;
+    transform: translateY(-8px);
+}
+
+.link-linkedin:hover {
+    background-color: #0e76a8;
+    transform: translateY(-8px);
+}
+
+.link-cv:hover {
+    background-color: #1d5470;
+    transform: translateY(-8px);
+}

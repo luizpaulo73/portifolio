@@ -1,6 +1,6 @@
 import './Header.css'
 
-function Header() {
+export default function Header() {
 
 
     return (
@@ -15,6 +15,4 @@ function Header() {
             </nav>
         </header>
     );
-}
-
-export default Header;
+};
