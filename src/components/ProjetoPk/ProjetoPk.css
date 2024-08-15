@@ -1,0 +1,104 @@
+#meus-projetos {
+    background-color: #13131f;
+    padding-top: 100px;
+}
+
+.projetos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.site-pk {
+    width: 500px;
+    background-color: whitesmoke;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    border: 4px solid #8257E6;
+}
+
+.img-site-pk {
+    width: 80%;
+    margin: 20px 0 20px;
+}
+
+.links-projeto a {
+    text-decoration: none;
+}
+
+.titulo-site {
+    font-size: 30px;
+    font-family: "kanit";
+    font-weight: 400;
+}
+
+.link-repositorio , .acessar-projeto {
+    font-size: 20px;
+    background-color: #8257E6;
+    color: whitesmoke;
+    font-family: "kanit";
+    padding: 6px;
+    border-radius: 10px;
+    transition: 0.4s ease-in-out;
+}
+
+.link-repositorio {
+    margin-right: 20px;
+}
+
+.link-repositorio:hover {
+    background-color: #2b3137;
+}
+
+.acessar-projeto:hover {
+    background-color: #4c28a0;
+}
+
+.tecnologias-utilizadas {
+    width: 3vw;
+}
+
+.div-tecnologia {
+    background-color: whitesmoke;
+    width: 5vw;
+    height: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.logos-tecnologias {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.div-tecnologia {
+    transition: 0.4s ease-in-out;
+}
+
+.div-tecnologia:hover {
+    transform: scale(1.1);
+}
+
+.h1-projeto {
+    font-size: 50px;
+    font-family: "kanit";
+    color: whitesmoke;
+}
+
+.desc-projeto {
+    font-size: 30px;
+    font-family: "kanit";
+    color: whitesmoke;
+}
+
+.info-projeto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
