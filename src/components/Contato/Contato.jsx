@@ -10,19 +10,19 @@ export default function Contato() {
       <div className="contatos">
         <div className="box">
           <a href="mailto:luiz.paulo2005@hotmail.com">
-            <img src={email} alt="" />
+            <img src={email} alt="Email" />
           </a>
           <p>E-mail</p>
         </div>
         <div className="box">
           <a href="https://www.linkedin.com/in/luizpaulo73/">
-            <img src={linkedin} alt="" />
+            <img src={linkedin} alt="LinkedIn" />
           </a>
           <p>LinkedIn</p>
         </div>
         <div className="box">
           <a href="https://github.com/luizpaulo73">
-            <img src={github} alt="" />
+            <img src={github} alt="GitHub" />
           </a>
           <p>GitHub</p>
         </div>
