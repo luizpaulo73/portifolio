@@ -47,3 +47,63 @@
     font-family: "kanit";
     font-weight: 600;
 }
+
+@media screen and (max-width:1150px) {
+    #habilidades {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .titulo-habilidades {
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width:730px) {
+    .tecnologia {
+        width: 150px;
+        height: 150px;
+    }
+
+    .titulo-habilidades h1{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .tecnologia {
+        width: 120px;
+        height: 120px;
+    }
+
+    .tecnologias {
+        gap: 20px;
+    }
+
+    .p-tecnologia {
+        font-size: 17px;
+    }
+
+    .titulo-habilidades h1{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .tecnologia {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width:370px) {
+    .tecnologia {
+        width: 80px;
+        height: 80px;
+        border-radius: 10px;
+    }
+
+    .p-tecnologia {
+        font-size: 14px;
+    }
+}

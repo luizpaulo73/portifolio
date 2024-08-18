@@ -1,0 +1,74 @@
+#contato {
+    background-color: #13131f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    overflow: hidden;
+    padding-bottom: 200px;
+}
+
+.titulo-contato {
+    color: white;
+    font-family: "kanit";
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+}
+
+.contatos {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+    width: 100vw;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box img {
+    width: 6vw;
+}
+
+.box p {
+    color: whitesmoke;
+    font-family: "kanit";
+    text-align: center;
+}
+
+@media screen and (max-width:1300px) {
+    .box img {
+        width: 10vw;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .box img {
+        width: 14vw;
+    }
+
+    .box p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:670px) {
+    .box p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .box p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .box img {
+        width: 18vw;
+    }
+}

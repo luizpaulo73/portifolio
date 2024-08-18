@@ -68,3 +68,65 @@
     background-color: #1d5470;
     transform: translateY(-8px);
 }
+
+@media screen and (max-width:1430px) {
+    .resumo p {
+        font-size: 1.5rem;
+    }
+
+    .saudacao , .nome {
+        font-size: 3rem;
+    }
+
+    .dev {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width:880px) {
+    .resumo p {
+        font-size: 1rem;
+    }
+
+    .saudacao , .nome {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width:800px) {
+
+    #sobre-mim {
+        flex-direction: column;
+    }
+
+    .infos {
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;    
+    }
+    
+    .resumo {
+        margin-top: 50px;
+        width: 70vw;
+        text-align: center;
+    }
+
+    .links-uteis a {
+        width: 100px;
+        height: 30px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .links-uteis a {
+        width: 80px;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .links-uteis a {
+        width: 70px;
+        font-size: smaller;
+    }
+}

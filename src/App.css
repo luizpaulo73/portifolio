@@ -6,3 +6,13 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+
+::-webkit-scrollbar{
+  width: 12px;
+  background-color: #13131f;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #8257E6;
+  border-radius: 10px;
+}
