@@ -1,19 +1,21 @@
 import "./Projetos.css";
-import polipratik from "../img/polipratik.png";
+
 import htmlLogo from "../img/html-5.png";
 import cssLogo from "../img/css-3.png";
 import jsLogo from "../img/js.png";
 
-export default function Projeto() {
-  return (
+export default function Projetos(props) {
+  
+  
+    return (
     <section id="meus-projetos" className="meus-projetos">
       <div className="projetos">
         <div className="info-projeto">
-          <h1 className="h1-projeto">PolipratiK WebSite</h1>
+          <h1 className="h1-projeto">{props.titulo}</h1>
           <p className="desc-projeto">
-            Projeto realizado com HTML, CSS, JavaScript
+            {props.desc1}
           </p>
-          <p className="desc-projeto"> e com prototipação realizada no Figma</p>
+          <p className="desc-projeto"> {props.desc2}</p>
           <div className="logos-tecnologias">
             <div className="div-tecnologia">
               <img
@@ -41,20 +43,20 @@ export default function Projeto() {
         <div className="lista-projetos">
           <div className="site">
             <img
-              src={polipratik}
+              src={props.imgSite}
               alt="Site Polipratik"
               className="img-site"
             />
             <div className="links-projeto">
               <a
-                href="https://github.com/luizpaulo73/site-polipratik"
+                href={props.linkRepositorio}
                 target="_blank"
                 className="link-repositorio"
               >
                 Repositorio GitHub
               </a>
               <a
-                href="https://polipratik.com.br"
+                href={props.linkSite}
                 target="_blank"
                 className="acessar-projeto"
               >
@@ -65,5 +67,5 @@ export default function Projeto() {
         </div>
       </div>
     </section>
-  );
+  )
 }
