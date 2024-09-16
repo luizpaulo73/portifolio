@@ -1,5 +1,5 @@
 import "./Sobre.css";
-import cv from '../cv/luiz-paulo.pdf'
+import cv from '/cv/luiz-paulo.pdf'
 
 export default function Sobre() {
   return (

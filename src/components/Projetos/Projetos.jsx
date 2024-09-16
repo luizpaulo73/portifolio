@@ -1,8 +1,8 @@
 import "./Projetos.css";
 
-import htmlLogo from "../img/html-5.png";
-import cssLogo from "../img/css-3.png";
-import jsLogo from "../img/js.png";
+import htmlLogo from "/img/html-5.png";
+import cssLogo from "/img/css-3.png";
+import jsLogo from "/img/js.png";
 
 export default function Projetos(props) {
   

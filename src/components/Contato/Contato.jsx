@@ -1,7 +1,7 @@
 import "./Contato.css";
-import email from "../img/email.png";
-import github from "../img/github.png";
-import linkedin from "../img/linkedin.png";
+import email from "/img/email.png";
+import github from "/img/github.png";
+import linkedin from "/img/linkedin.png";
 
 export default function Contato() {
   return (

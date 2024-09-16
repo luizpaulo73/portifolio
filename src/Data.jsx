@@ -1,5 +1,5 @@
-import polipratik from "./components/img/polipratik.png";
-import proOcean from "./components/img/proocean.png";
+import polipratik from "/img/polipratik.png";
+import proOcean from "/img/proocean.png";
 
 export const projetoPk = [
     {
