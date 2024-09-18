@@ -1,4 +1,4 @@
-.meus-projetos {
+.meusProjetos {
     background-color: #13131f;
     padding-top: 100px;
 }
@@ -7,6 +7,11 @@
     display: flex;
     justify-content: space-around;
 }
+
+.projetos:not(:nth-child(1)) {
+    margin-top: 60px;
+}
+
 
 .site {
     width: 500px;
@@ -21,48 +26,46 @@
     box-shadow: 0px 7px 20px 0px rgba(130,87,230,0.52);
 }
 
-.img-site {
+.imgSite {
     width: 80%;
     margin: 20px 0 20px;
 }
 
-.links-projeto a {
+.linksProjeto a {
     text-decoration: none;
 }
 
-.titulo-site {
+.tituloSite {
     font-size: 30px;
-    font-family: "kanit";
     font-weight: 400;
 }
 
-.link-repositorio , .acessar-projeto {
+.linkRepositorio, .acessarProjeto {
     font-size: 20px;
     background-color: #8257E6;
     color: whitesmoke;
-    font-family: "kanit";
     padding: 6px;
     border-radius: 10px;
     transition: 0.4s ease-in-out;
 }
 
-.link-repositorio {
+.linkRepositorio {
     margin-right: 20px;
 }
 
-.link-repositorio:hover {
+.linkRepositorio:hover {
     background-color: #2b3137;
 }
 
-.acessar-projeto:hover {
+.acessarProjeto:hover {
     background-color: #4c28a0;
 }
 
-.tecnologias-utilizadas {
+.tecnologiasUtilizadas {
     width: 3vw;
 }
 
-.div-tecnologia {
+.divTecnologia {
     background-color: whitesmoke;
     width: 5vw;
     height: 5vw;
@@ -72,33 +75,31 @@
     border-radius: 50%;
 }
 
-.logos-tecnologias {
+.logosTecnologias {
     display: flex;
     justify-content: space-around;
     margin-top: 40px;
 }
 
-.div-tecnologia {
+.divTecnologia {
     transition: 0.4s ease-in-out;
 }
 
-.div-tecnologia:hover {
+.divTecnologia:hover {
     transform: scale(1.1);
 }
 
-.h1-projeto {
+.h1Projeto {
     font-size: 50px;
-    font-family: "kanit";
     color: whitesmoke;
 }
 
-.desc-projeto {
+.descProjeto {
     font-size: 30px;
-    font-family: "kanit";
     color: whitesmoke;
 }
 
-.info-projeto {
+.infoProjeto {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -112,41 +113,41 @@
         align-items: center;
     }
 
-    .logos-tecnologias {
+    .logosTecnologias {
         display: flex;
         justify-content: space-evenly;
     }
 
-    .info-projeto {
+    .infoProjeto {
         margin-bottom: 50px;
     }
 
-    .tecnologias-utilizadas {
+    .tecnologiasUtilizadas {
         width: 5vw;
         height: 5vw;
     }
 
-    .div-tecnologia {
+    .divTecnologia {
         width: 8vw;
         height: 8vw;
     }
 }
 
 @media screen and (max-width:650px) {
-    .h1-projeto {
+    .h1Projeto {
         font-size: 40px;
     }
 
-    .desc-projeto {
+    .descProjeto {
         font-size: 25px;
     }
 
-    .tecnologias-utilizadas {
+    .tecnologiasUtilizadas {
         width: 6vw;
         height: 6vw;
     }
 
-    .div-tecnologia {
+    .divTecnologia {
         width: 9vw;
         height: 9vw;
     }
@@ -158,43 +159,43 @@
         margin: 0 auto;
     }
 
-    .h1-projeto {
+    .h1Projeto {
         font-size: 30px;
     }
 
-    .desc-projeto {
+    .descProjeto {
         font-size: 20px;
     }
 
-    .tecnologias-utilizadas {
+    .tecnologiasUtilizadas {
         width: 7vw;
         height: 7vw;
     }
 
-    .div-tecnologia {
+    .divTecnologia {
         width: 10vw;
         height: 10vw;
     }
 }
 
 @media screen and (max-width:420px) {
-    .link-repositorio , .acessar-projeto {
+    .linkRepositorio, .acessarProjeto {
         font-size: 15px;
     }
 }
 
 @media screen and (max-width:410px) {
-    .h1-projeto {
+    .h1Projeto {
         font-size: 25px;
     }
 
-    .desc-projeto {
+    .descProjeto {
         font-size: 14px;
     }
 }
 
 @media screen and (max-width:350px) {
-    .link-repositorio , .acessar-projeto {
+    .linkRepositorio, .acessarProjeto {
         font-size: 12px;
     }
 }

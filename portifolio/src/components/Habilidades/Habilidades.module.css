@@ -1,4 +1,4 @@
-#habilidades {
+.habilidades {
     background-color: #13131f;
     display: flex;
     justify-content: space-evenly;
@@ -34,27 +34,25 @@
     width: 50%;
 }
 
-.titulo-habilidades h1{
+.tituloHabilidades h1 {
     font-size: 60px;
     color: whitesmoke;
-    font-family: "kanit";
     font-weight: 400;
     text-align: center;
 }
 
-.p-tecnologia {
+.pTecnologia {
     font-size: 20px;
-    font-family: "kanit";
     font-weight: 600;
 }
 
 @media screen and (max-width:1150px) {
-    #habilidades {
+    .habilidades {
         display: flex;
         flex-direction: column;
     }
 
-    .titulo-habilidades {
+    .tituloHabilidades {
         margin-bottom: 40px;
     }
 }
@@ -65,7 +63,7 @@
         height: 150px;
     }
 
-    .titulo-habilidades h1{
+    .tituloHabilidades h1 {
         font-size: 40px;
     }
 }
@@ -80,11 +78,11 @@
         gap: 20px;
     }
 
-    .p-tecnologia {
+    .pTecnologia {
         font-size: 17px;
     }
 
-    .titulo-habilidades h1{
+    .tituloHabilidades h1 {
         font-size: 40px;
     }
 }
@@ -103,7 +101,7 @@
         border-radius: 10px;
     }
 
-    .p-tecnologia {
+    .pTecnologia {
         font-size: 14px;
     }
 }

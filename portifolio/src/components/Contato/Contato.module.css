@@ -1,4 +1,4 @@
-#contato {
+.contato {
     background-color: #13131f;
     display: flex;
     flex-direction: column;
@@ -8,9 +8,8 @@
     padding-bottom: 200px;
 }
 
-.titulo-contato {
+.tituloContato {
     color: white;
-    font-family: "kanit";
     font-weight: 400;
     font-size: 50px;
     text-align: center;
@@ -35,7 +34,6 @@
 
 .box p {
     color: whitesmoke;
-    font-family: "kanit";
     text-align: center;
 }
 

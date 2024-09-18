@@ -26,11 +26,10 @@
     text-decoration: none;
     color: whitesmoke;
     font-size: 2rem;
-    font-family: "kanit";
     position: relative;
 }
 
-.links::after{
+.links::after {
     content: '';
     position: absolute;
     width: 100%;
@@ -42,30 +41,30 @@
     transition: transform 0.3s;
 }
 
-.links:hover::after{
+.links:hover::after {
     transform: scale(1,1);
 }
 
 @media screen and (max-width:800px) {
-    .links{
+    .links {
         font-size: 1.5rem;
     }
 }
 
 @media screen and (max-width:480px) {
-    .links{
+    .links {
         font-size: 1.2rem;
     }
 }
 
 @media screen and (max-width:380px) {
-    .links{
+    .links {
         font-size: 1rem;
     }
 }
 
 @media screen and (max-width:300px) {
-    .links{
+    .links {
         font-size: 0.8rem;
     }
 }
