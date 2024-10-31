@@ -7,7 +7,7 @@ export default function Sobre() {
       <div className={styles.infos}>
         <h1 className={styles.saudacao}>Olá, eu sou o</h1>
         <h1 className={styles.nome}>{"</Luiz Paulo>"}</h1>
-        <p className={styles.dev}>Desenvolvedor</p>
+        <p className={styles.dev}>Desenvolvedor Front-end</p>
         <div className={styles.linksUteis}>
           <a href="https://github.com/luizpaulo73" target="_blank" className={styles.linkGithub}>GitHub</a>
           <a href={cv} download="Currículo Luiz Paulo.pdf" className={styles.linkCv}>Currículo</a>

@@ -1,5 +1,5 @@
 import styles from './Projetos.module.css';
-import { listaProjetos } from "./Data";
+import { listaProjetos } from "./data";
 
 export default function Projetos() {
   

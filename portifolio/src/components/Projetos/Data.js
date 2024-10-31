@@ -31,8 +31,8 @@ export const listaProjetos = [
 export const projetoKGV = [
     {
     title: "KGV Motors WebSite",
-    desc1: "",
-    desc2: "",
+    desc1: "Projeto Realizado com React.js, Bootstrap e CSS Modules",
+    desc2: "Status: Em Desenvolvimento",
     imgSite: "",
     linkRepositorio: "",
     linkSite: "",

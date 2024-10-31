@@ -4,23 +4,26 @@ import js from "/img/js.png"
 import react from "/img/react.png"
 import bootstrap from "/img/bootstrap.png"
 import git from "/img/git.png"
+import typescript from "/img/typescript.png"
+import next from "/img/next.png"
+import tailwind from "/img/tailwind.png"
 
 export const listaTecnologia = [
     {
-        nome: "HTML",
-        foto: html
-    },
-    {
-        nome: "CSS",
-        foto: css
-    },
-    {
-        nome: "JavaScript",
-        foto: js
+        nome: "Next.js",
+        foto: next
     },
     {
         nome: "React.js",
         foto: react
+    },
+    {
+        nome: "TypeScript",
+        foto: typescript
+    },
+    {
+        nome: "Tailwind css",
+        foto: tailwind
     },
     {
         nome: "Bootstrap",
