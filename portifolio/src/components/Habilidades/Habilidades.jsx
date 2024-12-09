@@ -6,7 +6,7 @@ export default function Habilidades() {
     return(
         <section className={styles.habilidades} id="habilidades">
             <div className={styles.tituloHabilidades}>
-                <h1>Habilidades</h1>
+                <h1>Tecnologias</h1>
             </div>
             <div className={styles.tecnologias}>
                 {listaTecnologia.map((tecnologia, index) => (

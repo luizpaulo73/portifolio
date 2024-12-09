@@ -22,7 +22,7 @@ export const listaTecnologia = [
         foto: typescript
     },
     {
-        nome: "Tailwind css",
+        nome: "Tailwind",
         foto: tailwind
     },
     {
