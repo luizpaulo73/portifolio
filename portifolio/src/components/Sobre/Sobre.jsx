@@ -16,8 +16,7 @@ export default function Sobre() {
       </div>
       <div className={styles.resumo}>
         <p>
-          Estudante de Análise e Desenvolvimento de Sistemas na FIAP com
-          conhecimentos em HTML, CSS, JavaScript, React.js, Bootstrap e Git.
+          Estudante de Análise e Desenvolvimento de Sistemas na FIAP
         </p>
       </div>
     </section>
