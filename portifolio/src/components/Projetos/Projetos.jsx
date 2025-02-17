@@ -31,13 +31,14 @@ export default function Projetos() {
                 className={styles.imgSite}
               />
               <div className={styles.linksProjeto}>
+                {projeto.linkRepositorio ?
                 <a
                   href={projeto.linkRepositorio}
                   target="_blank"
                   className={styles.linkRepositorio}
                 >
                   Repositorio GitHub
-                </a>
+                </a> : null}
                 <a
                   href={projeto.linkSite}
                   target="_blank"

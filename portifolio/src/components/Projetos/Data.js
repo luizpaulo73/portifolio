@@ -23,12 +23,11 @@ export const listaProjetos = [
     },
     {
         title: "PolipratiK WebSite",
-        desc1: "Projeto realizado com HTML, CSS, JavaScript",
+        desc1: "Projeto realizado com React, Tailwind e TypeScript",
         desc2: "e com prototipação realizada no Figma",
         imgSite: polipratik,
-        linkRepositorio: "https://github.com/luizpaulo73/site-polipratik",
         linkSite: "https://polipratik.com.br",
-        tecnologiaUtilizada: [html , css , js],
+        tecnologiaUtilizada: [react , ts , tailwind],
     },
     {
         title: "Projeto ProOcean",
